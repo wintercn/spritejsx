@@ -1,0 +1,22 @@
+{
+  "name": "spritejsx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel sample.jsx > sample.js --presets spritejsx"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1"
+  },
+  "dependencies": {
+    "babel-preset-rax": "^0.6.4-3",
+    "babel-preset-spritejsx": "^1.0.5",
+    "spritejs": "^2.3.2"
+  }
+}
